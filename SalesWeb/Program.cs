@@ -21,11 +21,6 @@ namespace SalesWeb
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                    Console.WriteLine("teste");
-                    Console.WriteLine("teste2");
-                    Console.WriteLine("teste3");
-                    Console.WriteLine("Teste4");
-                    Console.WriteLine("Teste5");
                 });
     }
 }
